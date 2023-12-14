@@ -1,4 +1,7 @@
 f12::reload
+;must have teleport gamepass
+;adjust sleep times for to adapt to your walkspeed
+;program made with 46.69 walk speed
 
 f1::
 Loop{
