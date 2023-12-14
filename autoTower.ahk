@@ -1,6 +1,7 @@
 f12::reload
 
 f1::
+Loop{
 ;move forward from spawn
 send {w down}
 sleep 2900
@@ -50,7 +51,7 @@ sleep 1000
 MouseMove, 1500, 550
 Click
 ;lag account
-sleep 1000
+sleep 3000
 ;accept tower leave
 MouseMove, 1300, 1300
 Click
@@ -59,4 +60,5 @@ sleep 1000
 MouseMove, 1300, 1000
 Click
 ;loop
+}
 return
