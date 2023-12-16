@@ -11,17 +11,17 @@ sleep 2900
 send {w up}
 ;move to the right to align with tower
 send {d down}
-sleep 3075
+sleep 2950
 send {d up}
 ;move toward the tower
 send {w down}
 sleep 3000
 send {w up}
 ;small delay to wait for popup
-sleep 200
+sleep 1000
 ;join tower run
 send {e}
-sleep 200
+sleep 1000
 ;confirm join tower run
 MouseMove, 1200, 900
 Click
@@ -37,7 +37,7 @@ sleep 2200
 send {w up}
 ;move to the left to align with dummy
 send {a down}
-sleep 850
+sleep 650
 send {a up}
 ;move to kill dummy
 send {s down}
